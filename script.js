@@ -67,7 +67,6 @@ function setProgress(e) {
     const duration = audio.duration;
 
     audio.currentTime = (clickX / width) * duration;
-    console.log(`(${clickX} / ${width}) * ${duration} = ${audio.currentTime}`);
 }
 
 playBtn.addEventListener('click', () => {
